@@ -1,5 +1,5 @@
 {
-  "name": "Swift-wallet-pnpm",
+  "name": "swift-wallet-pnpm",
   "private": true,
   "scripts": {
     "build": "turbo build",

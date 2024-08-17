@@ -1,13 +1,11 @@
-"use client";
-
+// "use client";
 import { useBalance } from "@repo/store/balance";
-
 export default function Home() {
-  const balance = useBalance();
+  const balance: number = useBalance();
   return (
     <div>
-      hkhjkjh
-      <p>hii there {balance}</p>
+      hii there
+      <p>{balance}</p>
     </div>
   );
 }

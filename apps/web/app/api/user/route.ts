@@ -4,9 +4,9 @@ import prisma from "@repo/db";
 export async function GET() {
   await prisma.user.create({
     data: {
-      number: "4354",
+      number: "43dfg54",
       password: "3453",
-      email: "pawangmial.com",
+      email: "pawagdfgdfngmial.com",
       name: "sdf",
     },
   });

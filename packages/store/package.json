@@ -9,6 +9,7 @@
     "@repo/typescript-config": "workspace:*"
   },
   "exports": {
-    "./balance": "./src/hooks/useBalance.ts"
+    "./balancehook": "./src/hooks/useBalance.ts",
+    "./balanceAtom": "./src/atoms/balance.ts"
   }
 }
